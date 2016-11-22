@@ -2,7 +2,7 @@ package org.crazyit.app.domain;
 
 /**
  * Description:
- * <br/>ÍøÕ¾: <a href="http://www.crazyit.org">·è¿ñJavaÁªÃË</a>
+ * <br/>ï¿½ï¿½Õ¾: <a href="http://www.crazyit.org">ï¿½ï¿½ï¿½Javaï¿½ï¿½ï¿½ï¿½</a>
  * <br/>Copyright (C), 2001-2010, Yeeku.H.Lee
  * <br/>This program is protected by copyright laws.
  * <br/>Program Name:
@@ -12,18 +12,19 @@ package org.crazyit.app.domain;
  */
 public class Address
 {
-	// ¶¨Òå´ú±í¸ÃAddressÏêÏ¸ÐÅÏ¢µÄ³ÉÔ±±äÁ¿
+	private String name;
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Addressï¿½ï¿½Ï¸ï¿½ï¿½Ï¢ï¿½Ä³ï¿½Ô±ï¿½ï¿½ï¿½ï¿½
 	private String detail;
-	// ¶¨Òå´ú±í¸ÃAddressÓÊ±àÐÅÏ¢µÄ³ÉÔ±±äÁ¿
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Addressï¿½Ê±ï¿½ï¿½ï¿½Ï¢ï¿½Ä³ï¿½Ô±ï¿½ï¿½ï¿½ï¿½
 	private String zip;
-	// ¶¨Òå´ú±í¸ÃAddress¹ú¼ÒÐÅÏ¢µÄ³ÉÔ±±äÁ¿
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Addressï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½Ä³ï¿½Ô±ï¿½ï¿½ï¿½ï¿½
 	private String country;
 
-	// ÎÞ²ÎÊýµÄ¹¹ÔìÆ÷
+	// ï¿½Þ²ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½
 	public Address()
 	{
 	}
-	// ³õÊ¼»¯È«²¿³ÉÔ±±äÁ¿µÄ¹¹ÔìÆ÷
+	// ï¿½ï¿½Ê¼ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½
 	public Address(String detail , String zip , String country)
 	{
 		this.detail = detail;
@@ -31,7 +32,7 @@ public class Address
 		this.country = country;
 	}
 
-	// detailµÄsetterºÍgetter·½·¨
+	// detailï¿½ï¿½setterï¿½ï¿½getterï¿½ï¿½ï¿½ï¿½
 	public void setDetail(String detail)
 	{
 		this.detail = detail;
@@ -41,7 +42,7 @@ public class Address
 		return this.detail;
 	}
 
-	// zipµÄsetterºÍgetter·½·¨
+	// zipï¿½ï¿½setterï¿½ï¿½getterï¿½ï¿½ï¿½ï¿½
 	public void setZip(String zip)
 	{
 		this.zip = zip;
@@ -51,7 +52,7 @@ public class Address
 		return this.zip;
 	}
 
-	// countryµÄsetterºÍgetter·½·¨
+	// countryï¿½ï¿½setterï¿½ï¿½getterï¿½ï¿½ï¿½ï¿½
 	public void setCountry(String country)
 	{
 		this.country = country;
