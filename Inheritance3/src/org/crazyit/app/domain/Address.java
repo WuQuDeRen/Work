@@ -13,6 +13,7 @@ package org.crazyit.app.domain;
 public class Address
 {
 	private String name;
+	private String age;
 	// ��������Address��ϸ��Ϣ�ĳ�Ա����
 	private String detail;
 	// ��������Address�ʱ���Ϣ�ĳ�Ա����
